@@ -1,0 +1,67 @@
+﻿<Window x:Class="PressingG3.UI.Views.CustomersWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Gestion des Clients &amp; Fidélité" Height="600" Width="1000"
+        WindowStartupLocation="CenterScreen"
+        Background="#F5F6FA">
+
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="60"/>
+        </Grid.RowDefinitions>
+
+        <Border Grid.Row="0" Background="White" CornerRadius="8" Padding="15" Margin="0,0,0,15">
+            <Border.Effect>
+                <DropShadowEffect BlurRadius="10" Opacity="0.1"/>
+            </Border.Effect>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Text="🔍" VerticalAlignment="Center" FontSize="18" Margin="0,0,10,0"/>
+                    <TextBox x:Name="TxtSearch" Width="300" Height="35" VerticalContentAlignment="Center" Padding="5" 
+                             TextChanged="TxtSearch_TextChanged"/>
+                    <TextBlock Text="Recherchez par Nom ou Téléphone" Foreground="Gray" VerticalAlignment="Center" Margin="10,0,0,0" FontStyle="Italic"/>
+                </StackPanel>
+
+                <StackPanel Grid.Column="1" Orientation="Horizontal" VerticalAlignment="Center">
+                    <TextBlock Text="Total Clients :" FontWeight="Bold" Foreground="#2C3E50"/>
+                    <TextBlock x:Name="LblTotalClients" Text="0" Margin="5,0,20,0" Foreground="#2980B9" FontWeight="Bold"/>
+                </StackPanel>
+            </Grid>
+        </Border>
+
+        <DataGrid x:Name="GridClients" Grid.Row="1" AutoGenerateColumns="False" 
+                  Background="White" RowHeight="35" CanUserAddRows="False"
+                  BorderThickness="0">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Nom Complet" Binding="{Binding NomComplet}" Width="250"/>
+
+                <DataGridTextColumn Header="Téléphone" Binding="{Binding Telephone}" Width="150"/>
+
+                <DataGridTextColumn Header="Adresse / Quartier" Binding="{Binding Adresse}" Width="*"/>
+
+                <DataGridTextColumn Header="Nb Commandes" Binding="{Binding NombreCommandes}" IsReadOnly="True" Width="120"/>
+                <DataGridTextColumn Header="Total Dépensé (FCFA)" Binding="{Binding TotalDepense, StringFormat=N0}" IsReadOnly="True" Width="150" FontWeight="Bold"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <Grid Grid.Row="2" Margin="0,15,0,0">
+            <Button Content="💾 ENREGISTRER LES MODIFICATIONS" Click="BtnSave_Click"
+                    HorizontalAlignment="Right" Width="250" Height="40"
+                    Background="#27AE60" Foreground="White" FontWeight="Bold" BorderThickness="0">
+                <Button.Effect>
+                    <DropShadowEffect BlurRadius="5" ShadowDepth="2" Opacity="0.2"/>
+                </Button.Effect>
+            </Button>
+
+            <TextBlock Text="Astuce : Double-cliquez sur une case pour modifier le Nom ou le Téléphone." 
+                       VerticalAlignment="Center" Foreground="Gray" FontStyle="Italic"/>
+        </Grid>
+    </Grid>
+</Window>

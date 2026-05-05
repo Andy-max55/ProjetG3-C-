@@ -1,0 +1,26 @@
+﻿<Window x:Class="PressingG3.UI.Views.AdminLoginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="ACCÈS RESTREINT" Height="300" Width="400"
+        WindowStartupLocation="CenterScreen"
+        WindowStyle="None" ResizeMode="NoResize"
+        Background="#1a1a1a">
+
+    <Border BorderBrush="#c0392b" BorderThickness="2">
+        <StackPanel VerticalAlignment="Center" Margin="20">
+            <TextBlock Text="🔒 ESPACE ADMINISTRATEUR" Foreground="White" 
+                       HorizontalAlignment="Center" FontSize="18" FontWeight="Bold" Margin="0,0,0,20"/>
+
+            <TextBlock Text="Mot de passe Maître :" Foreground="Gray" Margin="0,0,0,5"/>
+            <PasswordBox x:Name="TxtPassword" Height="30" Background="#333" Foreground="White" BorderThickness="0"/>
+
+            <Button Content="DÉVERROUILLER" Click="BtnUnlock_Click"
+                    Height="40" Margin="0,20,0,0" 
+                    Background="#c0392b" Foreground="White" FontWeight="Bold" BorderThickness="0"/>
+
+            <Button Content="Annuler" Click="BtnCancel_Click"
+                    Height="30" Margin="0,10,0,0" 
+                    Background="Transparent" Foreground="#777" BorderThickness="0"/>
+        </StackPanel>
+    </Border>
+</Window>

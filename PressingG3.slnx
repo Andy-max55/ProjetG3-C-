@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="PressingG3.core/PressingG3.core.csproj" />
+  <Project Path="PressingG3.UI/PressingG3.UI.csproj" />
+</Solution>

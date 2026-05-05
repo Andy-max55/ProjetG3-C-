@@ -1,0 +1,43 @@
+﻿<Window x:Class="PressingG3.UI.Views.LoginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Connexion - Pressing G3" Height="450" Width="800"
+        WindowStartupLocation="CenterScreen" ResizeMode="NoResize" WindowStyle="None"
+        Background="Transparent" AllowsTransparency="True">
+
+    <Border CornerRadius="20" Background="White" Margin="20">
+        <Border.Effect>
+            <DropShadowEffect BlurRadius="20" ShadowDepth="5" Opacity="0.3"/>
+        </Border.Effect>
+
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="300"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Border Grid.Column="0" Background="#2C3E50" CornerRadius="20,0,0,20">
+                <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+                    <TextBlock Text="PRESSING G3" Foreground="White" FontSize="28" FontWeight="Bold" HorizontalAlignment="Center"/>
+                    <TextBlock Text="Logiciel de Gestion" Foreground="#BDC3C7" FontSize="14" HorizontalAlignment="Center" Margin="0,10,0,0"/>
+                </StackPanel>
+            </Border>
+
+            <StackPanel Grid.Column="1" VerticalAlignment="Center" Margin="40">
+                <TextBlock Text="AUTHENTIFICATION" FontSize="22" FontWeight="Bold" Foreground="#34495E" Margin="0,0,0,30" HorizontalAlignment="Center"/>
+
+                <TextBlock Text="Identifiant :" Foreground="Gray"/>
+                <TextBox x:Name="TxtUsername" Height="40" VerticalContentAlignment="Center" Padding="5" Margin="0,0,0,15"/>
+
+                <TextBlock Text="Mot de passe :" Foreground="Gray"/>
+                <PasswordBox x:Name="TxtPassword" Height="40" VerticalContentAlignment="Center" Padding="5" Margin="0,0,0,25"/>
+
+                <Button Content="SE CONNECTER" Click="BtnLogin_Click"
+                        Height="45" Background="#2980B9" Foreground="White" FontWeight="Bold" BorderThickness="0" Cursor="Hand"/>
+
+                <Button Content="Quitter" Click="BtnQuit_Click"
+                        Height="30" Margin="0,10,0,0" Background="Transparent" Foreground="#95A5A6" BorderThickness="0" Cursor="Hand"/>
+            </StackPanel>
+        </Grid>
+    </Border>
+</Window>
