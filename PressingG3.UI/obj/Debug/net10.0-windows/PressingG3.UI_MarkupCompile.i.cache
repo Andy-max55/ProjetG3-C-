@@ -16,5 +16,5 @@ C:\Users\DELL\source\repos\PressingG3\PressingG3.UI\App.xaml
 2281902913286
 Controls\OrderReadyNotification.xaml;MainWindow.xaml;Views\AdminDashboardWindow.xaml;Views\AdminLoginWindow.xaml;Views\AdminUsersWindow.xaml;Views\CustomersWindow.xaml;Views\HistoryWindow.xaml;Views\LoginWindow.xaml;Views\NewOrderWindow.xaml;Views\PickupWindow.xaml;Views\ProductionWindow.xaml;
 
-True
+False
 
