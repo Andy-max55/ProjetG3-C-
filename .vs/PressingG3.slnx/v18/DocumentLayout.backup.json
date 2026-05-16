@@ -213,7 +213,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -222,10 +222,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Bookmark",
@@ -245,12 +241,16 @@
               "Title": "LoginWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\PressingG3\\PressingG3.UI\\Views\\LoginWindow.xaml.cs",
               "RelativeDocumentMoniker": "PressingG3.UI\\Views\\LoginWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\DELL\\source\\repos\\PressingG3\\PressingG3.UI\\Views\\LoginWindow.xaml.cs",
-              "RelativeToolTip": "PressingG3.UI\\Views\\LoginWindow.xaml.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAmwBsAAAA7AAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\PressingG3\\PressingG3.UI\\Views\\LoginWindow.xaml.cs*",
+              "RelativeToolTip": "PressingG3.UI\\Views\\LoginWindow.xaml.cs*",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAiwCMAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-01T07:01:34.458Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Bookmark",
@@ -274,8 +274,7 @@
               "RelativeToolTip": "PressingG3.core\\PressingG3.core.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-11-30T21:04:14.299Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-30T21:04:14.299Z"
             },
             {
               "$type": "Document",
@@ -322,8 +321,7 @@
               "RelativeToolTip": "PressingG3.core\\Enums\\UserRole.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-01T06:32:01.286Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-01T06:32:01.286Z"
             },
             {
               "$type": "Document",
@@ -510,8 +508,7 @@
               "RelativeToolTip": "PressingG3.UI\\PressingG3.UI.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-11-30T21:13:14.984Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-30T21:13:14.984Z"
             },
             {
               "$type": "Document",

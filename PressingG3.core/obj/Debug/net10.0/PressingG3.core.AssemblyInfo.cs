@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PressingG3.core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dbc2d30385fab0f9d3e94111fa16275ba43425a8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d3e23ed7ecd118976ca8094cb6ff4398a15052db")]
 [assembly: System.Reflection.AssemblyProductAttribute("PressingG3.core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PressingG3.core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

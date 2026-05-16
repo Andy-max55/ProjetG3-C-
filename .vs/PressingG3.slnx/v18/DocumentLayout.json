@@ -225,10 +225,6 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             },
             {
@@ -240,6 +236,10 @@
               "Name": "ST:4:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "LoginWindow.xaml.cs",
@@ -247,7 +247,7 @@
               "RelativeDocumentMoniker": "PressingG3.UI\\Views\\LoginWindow.xaml.cs",
               "ToolTip": "C:\\Users\\DELL\\source\\repos\\PressingG3\\PressingG3.UI\\Views\\LoginWindow.xaml.cs",
               "RelativeToolTip": "PressingG3.UI\\Views\\LoginWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAiwCMAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-01T07:01:34.458Z",
               "EditorCaption": ""
@@ -274,8 +274,7 @@
               "RelativeToolTip": "PressingG3.core\\PressingG3.core.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-11-30T21:04:14.299Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-30T21:04:14.299Z"
             },
             {
               "$type": "Document",
@@ -322,8 +321,7 @@
               "RelativeToolTip": "PressingG3.core\\Enums\\UserRole.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-01T06:32:01.286Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-01T06:32:01.286Z"
             },
             {
               "$type": "Document",
@@ -510,8 +508,7 @@
               "RelativeToolTip": "PressingG3.UI\\PressingG3.UI.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-11-30T21:13:14.984Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-30T21:13:14.984Z"
             },
             {
               "$type": "Document",
